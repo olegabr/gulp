@@ -1,5 +1,5 @@
 # Pull base image.
-FROM dockerfile/nodejs
+FROM node:4-wheezy
 
 # global install gulp and jshint
 RUN npm install -g gulp jshint
