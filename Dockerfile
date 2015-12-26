@@ -1,5 +1,5 @@
 # Pull base image.
-FROM node:4-wheezy
+FROM node:wheezy
 
 # global install gulp and jshint
 RUN npm install -g gulp jshint
